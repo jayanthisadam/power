@@ -3,6 +3,6 @@ def power(a,b):
              return(a)
     if (b!=1):
              return(a*power(a,b-1))
-a = raw_input("")
-b = raw_input("")
+a=raw_input("")
+b=raw_input("")
 print(power(a,b))
